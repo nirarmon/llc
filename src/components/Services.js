@@ -1,9 +1,11 @@
 import React from 'react';
+import './Section.css';
 
 const Services = () => {
   return (
-    <section className="services">
+    <section className="section">
       <h2>Our Services</h2>
+      <img src="/services-image.jpg" alt="Our Services" />
       <h3>US Services</h3>
       <p>LLCs, S-Corps, C-Corps registration</p>
       <h3>HK Services</h3>

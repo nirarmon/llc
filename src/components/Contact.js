@@ -1,9 +1,11 @@
 import React from 'react';
+import './Section.css';
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="section">
       <h2>Contact Us</h2>
+      <img src="/contact-image.jpg" alt="Contact Us" />
       <form className="contact-form">
         <label htmlFor="name">Name</label>
         <input type="text" id="name" name="name" />
